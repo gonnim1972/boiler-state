@@ -24,7 +24,7 @@ mongoose.connect(config.mongoURI, {
 .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
-    res.send('Hello, Express! Happy New Year!');
+    res.send('Hello, Express! Happy New Year! 반갑습니다.~');
 });
 
 app.get('/api/hello', (req, res) => {
